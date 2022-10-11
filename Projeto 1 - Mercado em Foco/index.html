@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="uk-navbar-container uk-margin-remove-top" uk-navbar style="background-color: #9B9372; height: 4.2rem;">
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li class="uk-logo uk-navbar-item"><i class="fa-solid fa-computer"></i></li>
+                <li class="uk-navbar-item item-mercado">
+                    <div>
+                        <p id="item1">Mercado</p>
+                        <p id="item2">EM FOCO</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="uk-container uk-container-large">
+        <div class="uk-grid-large uk-child-width-expand@s uk-text-center uk-margin-large-top  uk-margin-large-bottom" uk-grid>
+            <div>
+                <div class="uk-align-right">
+                    <div>
+                        <h2>Cyber security: siga carreira na área de TI que mais cresce hoje</h2>
+                        <p class="uk-text-justify">Assim como já ocorre no presente, o futuro traz a
+                            possibilidade de termos maiores incidentes de
+                            segurança, já que os crimes cibernéticos estão cada
+                            vez mais complexos. Preparamos esse e-book para
+                            te guiar no mercado de segurança da informação.
+                            Baixe já este material inédito e aproveite!
+                        </p>
+                    </div>
+                    <div class="uk-width-large uk-align-center">
+                        <img class="uk-object-cover" src="imagens/livro.png" width="500" height="500" alt="" style="aspect-ratio: 1 / 1;">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-align-right">
+                    <form class="uk-width-large" style="border-radius: 15px;">
+                            <div class="uk-margin-small-left uk-text-left">
+                                <p class="uk-margin-remove-bottom ebook">Baixe o e-book gratuitamente!</p>
+                                <p class="uk-margin-remove-top ebook-s">Basta preencher o formulário abaixo.</p>
+                            </div>
+                    
+                            <div class="uk-margin-small-left uk-margin-small-right">
+                                <label class="uk-margin-remove-bottom uk-form-label uk-align-left">Nome*</label>
+                                <input class="uk-input" type="text" required>
+                            </div>
+                            <div class="uk-margin-small-top uk-margin-small-left uk-margin-small-right">
+                                <label class="uk-margin-remove-bottom uk-form-label uk-align-left">Email*</label>
+                                <input class="uk-input" type="email" required>
+                            </div>
+                    
+                            <div class="uk-margin-small-top uk-margin-small-left uk-margin-small-right">
+                                <label class="uk-margin-remove-bottom uk-form-label uk-align-left">Estado</label>
+                                <select id="estados" name="estados" class="uk-select">
+                                </select>
+                            </div>
+                            <div class="uk-margin-small-top uk-margin-small-left uk-margin-small-right">
+                                <label class="uk-margin-remove-bottom uk-form-label uk-align-left">Cidade</label>
+                                <select id="cidades" name="cidades" class="uk-select">
+                                </select>
+                            </div>
+                            
+                            <div class="uk-margin-small-top uk-margin-small-left uk-margin-small-right">
+                                <label class="uk-margin-remove-bottom uk-form-label uk-align-left">Tem interesse em outro curso ?</label>
+                                <select name="cursos" class="uk-select">
+                                    <option value="ADM">Administração</option>
+                                    <option value="FISIO">Fisioterápia</option>
+                                    <option value="EDF">Ed. Física</option>
+                                    <option value="DIR">Direito</option>
+                                    <option value="ENG">Engenharia</option>
+                                </select>
+                            </div>
+                    
+                            <div class="uk-margin-small-top uk-margin-small-left uk-grid-small uk-child-width-auto uk-grid">
+                                <label class="checkbox"><input class="uk-checkbox" type="checkbox"> Tenho computador com acesso a internet ?</label>
+                            </div>
+                    
+                            <div class="uk-margin-small-top uk-margin-small-left uk-grid-small uk-child-width-auto uk-grid uk-text-justify">
+                                <label class="checkbox"><input class="uk-checkbox" type="checkbox"> Quero receber e-mails sobre conteudos educativos e cursos</label>
+                            </div>
+
+                            <div class="uk-margin-small-top uk-margin-small-left uk-margin-small-right">
+                                <label class="uk-margin-remove-bottom uk-form-label uk-align-left">10 + 7</label>
+                                <input class="uk-input" type="text" required>
+                            </div>
+                            <button class="uk-margin-small-top uk-margin-small-left uk-margin-small-right uk-button uk-button-default">Receber material</button>
+                            <p class="p-infor uk-text-justify uk-margin-small-left uk-margin-small-right">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+            <div class="background-s uk-padding">
+                <h5>O mercado de cyber security</h5>
+                <p>A demanda por pessoas com habilidades em cyber security cresce quatro vezes mais rápido que a procura por profissionais de TI
+                    sem essa especializzação. Veja mais dados do mercado no e-book!
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="background-s uk-padding">
+                <h5>Perfis, cargos e salários</h5>
+                <p>Apesar de isso parecer óbvio, há grande dificuldade dos recrutadores na hora de contratar alguém para essa área. E o 
+                    motivo é simples: falta qualificação. Conheça os perfis mais procurados baixando o material!
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="background-s uk-padding">
+                <h5>Dicas para encontrar seu lugar</h5>
+                <p>Uma especializzação é o primeiro passo: dominar conceitos de segurança da informação, Direito Virtual e forense computacional
+                    são pilares que você precisa construir. Comece baixando este e-book!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-sobre">
+        <div class="div-section">
+              <p class="uk-text-center uk-position-center">Mercado em Foco é uma iniciativa educacional da Unisul - Universidade do Sul de Santa Catarina</p>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/api-ibge.js"></script>
+<script src="js/uikit-icons.min.js"></script>
+<script src="js/uikit.min.js"></script>
+</html>
